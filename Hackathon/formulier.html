@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style1.css" rel="stylesheet" type="text/css" />
+    <title>Contactformulier</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="flex-container">
+          <li class="flex-item1"><a href="./index.html">Home</a></li>
+          <li class="flex-item2"><a href="./zoogdieren.html">Zoogdieren</a></li>
+          <li class="flex-item3"><a href="./reptielen.html">Reptielen</a></li>
+          <li class="flex-item4"><a href="./vissen.html">Vissen</a></li>
+          <li class="flex-item5"><a href="./aboutme.html">About myself</a></li>
+          <li class="flex-item6"><a href="./formulier.html">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Contactformulier</h1>
+    </header>
+    <main>
+      <form name="contact" method="post" data-netlify="true">
+        <div class="blok">
+          <h2>Persoonlijke gegevens</h2>
+          <div>
+            <label for="name">Naam:</label>
+            <input type="text" name="name" id="name" size="30" maxlength="50" />
+          </div>
+          <div>
+            <label for="email">Emailadres:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              size="30"
+              maxlength="50"
+            />
+          </div>
+          <div>
+            <label for="tel">Telefoonnr:</label>
+            <input type="text" name="tel" id="tel" size="15" maxlength="15" />
+          </div>
+          <div>
+            <label for="age">Leeftijd:</label>
+            <input type="number" name="age" id="age" min="1" max="150" />
+          </div>
+          <div>
+            <label for="birthdate">Geboortedatum:</label>
+            <input type="date" name="birthdate" id="birthdate" />
+          </div>
+          <div>
+            <label>Geslacht:</label>
+            <label for="male">Man</label>
+            <input type="radio" name="gender" id="male" />
+            <label for="female">Vrouw</label>
+            <input type="radio" name="gender" id="female" />
+          </div>
+          <div id="keuzelijst">
+            <label for="favoriet">Uw favoriete diersoort:</label>
+            <select id="favoriet" name="favoriet" size="2" multiple="multiple">
+              <option value="zoogdieren">Zoogdieren</option>
+              <option value="reptielen">Reptielen</option>
+              <option value="vissen">Vissen</option>
+            </select>
+          </div>
+        </div>
+        <div class="blok">
+          <div>
+            <textarea rows="25" cols="50">
+Hier kunt U iets over uzelf kwijt</textarea
+            >
+          </div>
+          <div class="uploaden">
+            <label for="upload">Upload Uw beste natuurfilm:</label>
+            <input type="file" id="upload" name="upload" />
+          </div>
+        </div>
+        <div class="blok">
+          <div>
+            <label for="page">U kunt Uw eigen pagina invullen:</label>
+            <input type="url" id="page" name="page" />
+          </div>
+          <div>
+            <input id="reset" type="reset" />
+            <input id="submit" type="submit" />
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

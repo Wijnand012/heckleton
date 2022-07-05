@@ -1,0 +1,88 @@
+body {
+    background-color: #ffe4c4;
+    color: #000;
+    padding: 0.5em;
+    font-size: 120%;
+    word-spacing: 0.2em;
+    line-height: 1em;
+}
+section {
+    background-color: white;
+    border-radius: 1em;
+    border: 0.1em solid black;
+    padding: 0.4em;
+    margin: 0.5em;
+}
+ul {
+    list-style-type: none;
+}
+ul > li {
+    display: inline;
+    margin: 1em;
+}
+h1 {
+    font-size: 200%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.illustratie {
+    float: right;
+    padding: 0.5em;
+}
+.blok {
+    padding: 5px 5px 5px 5px;
+    margin: 10px;
+}
+
+input {
+    font-size: 120%;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    margin-bottom: 5px;
+    }
+#male, #female, #reset, #submit {
+    display: inline;
+}
+.uploaden {
+    margin-top: 2em;
+}
+#keuzelijst {
+    margin-top: 10px;
+}
+#favoriet {
+    display: block;
+}
+h2 {
+    line-height: 1em;
+}
+.background-black {
+    background-color:black;
+    color: white;
+}
+.background-blue {
+    background-color: rgba(50, 47, 187, 0.986);
+    color:white;    
+}
+.background-purple {
+    background-color: purple;
+    color: white;
+}
+.background-green {
+    background-color: rgb(15, 240, 15);
+}
+.background-aqua {
+    background-color: aqua;    
+}
+.background-yellow {
+    background-color: rgb(177, 177, 16);
+}
+.background-brown {
+    background-color: rgb(102, 67, 67);
+    color: white;
+}
+
+
